@@ -119,7 +119,7 @@ const Location = () => {
           ))}
         </select>
       </div>
-      <p>{details.country?"You selected":""} <span style={{fontSize:"20px", fontWeight:"bold"}}>{details.country}</span>{`${details.state?",":""} ${details.state} ${details.city?",":""} ${details.city}  `}</p>
+      <span>{details.country?"You selected":""} <span style={{fontSize:"20px", fontWeight:"bold"}}>{details.country}</span>{`${details.state?",":""} ${details.state} ${details.city?",":""} ${details.city}  `}</span>
       
     </div>
   );
